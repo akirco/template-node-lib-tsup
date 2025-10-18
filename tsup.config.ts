@@ -13,7 +13,7 @@ export const tsup: Options = {
   skipNodeModulesBundle: true,
   entryPoints: ['src/index.ts'],
   watch: env === 'development',
-  target: 'es2020',
+  target: "es2024",
   outDir: env === 'production' ? 'dist' : 'lib',
   entry: ['src/**/*.ts'],
 };

@@ -1,4 +1,3 @@
-import { sum } from './Sum';
 
 const sampleJson = [
   {
@@ -8,4 +7,5 @@ const sampleJson = [
   },
 ];
 
-export { sampleJson, sum };
+export { sampleJson };
+

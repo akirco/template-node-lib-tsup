@@ -3,6 +3,6 @@
   "editor.formatOnSave": true,
   "editor.rulers": [90],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "always"
   }
 }
